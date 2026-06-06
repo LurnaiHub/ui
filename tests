@@ -811,8 +811,8 @@ local ps = game:GetService("Players")
 local p = ps.LocalPlayer
 local mouse = p:GetMouse()
 
-local Prefabs = script.Parent:WaitForChild("Prefabs")
-local Windows = script.Parent:FindFirstChild("Windows")
+local Prefabs = imgui:WaitForChild("Prefabs")
+local Windows = imgui:WaitForChild("Windows")
 
 local checks = {
 	["binding"] = false,
